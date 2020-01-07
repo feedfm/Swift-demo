@@ -1,0 +1,1361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03598F903987C755C685B11A7F320593 /* FMSkipWarningView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F0839C5559AD682969EDE9ABFCE66C /* FMSkipWarningView.m */; };
+		0535E933FE1CA19F6341BD1299C35B3F /* FMRemainingTimeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 59930C4807C37AC36247A5E291B40FBC /* FMRemainingTimeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		069F53C51BA5B62875891AD7030734C8 /* FeedMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DBBE2A03374CC1756302353DCB53A8 /* FeedMedia.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		086E656DECC01B31EB1418F1644AFA07 /* FMEqualizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 530FE5B7910A7B5D48FA16B2144FA22B /* FMEqualizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F600D4BC35A369D84360C523130200 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB6FF366798848F60BBAF119AF5E17A /* UIKit.framework */; };
+		0CB07AF9700D4542B2C4C39D9C7FA227 /* FMLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF8D53ED72716B833D26E92C8EF8435 /* FMLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18FA95434E324F783A409FCC5430FDE5 /* MarqueeLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741CDCC60B8C01B662E0A9D7004A0D7C /* MarqueeLabel.framework */; };
+		1A25A338D61DA41B1616FA7BF548D11C /* FMActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E58149230D7533622399D23B439DC633 /* FMActivityIndicator.m */; };
+		1B7E7B16CDEC321A263291419E7CE00B /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip.bundle */; };
+		23DEEEE2E18C3430D7A94C2866118C8D /* FMStationCrossfader.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E95290CAE0124EA36CFCDC9EE6C6E7 /* FMStationCrossfader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28336F1C947B57D07831C63C31B84A0C /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0549B0D9E144A31691A7BDB25D2377 /* IndicatorInfo.swift */; };
+		2B39B33ECADFF6B44583C4DBA8854A9C /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDE5C49B26EDA3F361A86C6765C76E0 /* ButtonBarViewCell.swift */; };
+		2BC8DF4EADD024A30A84555CB575CAC6 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06DB916DA63FC5399E016E3611E059B /* SwipeDirection.swift */; };
+		2CA56B065700EC89EDFC27B8984965CE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EA766C492CC1BDBE18483FD3BCD2182 /* AVFoundation.framework */; };
+		2D89C41651D801766FBC196037E185AB /* FMEqualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3526DBFB47FC06E56BC51CCCC20487 /* FMEqualizer.m */; };
+		2DABB7F30476F072B6A15D510614C93E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB6FF366798848F60BBAF119AF5E17A /* UIKit.framework */; };
+		311557DC2943E068608D1B6A7B663232 /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68A480157C30704D34B57320ADFBA3 /* SegmentedPagerTabStripViewController.swift */; };
+		31444CF66F4DAF2E747D84B85BE901E5 /* MarqueeLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C42E369D162C3F121103BE23157C99A /* MarqueeLabel-dummy.m */; };
+		31D4BF794D869184883BA694632B66DA /* FMActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C33C82F87442FB9FE42623E4ABFB26 /* FMActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33C157E890BF3EC68FBD71154016F524 /* FMAudioItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 435EA8CB5D5C58237273DDF15E4EE5F0 /* FMAudioItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35970E66B100B24943ED1DB32756CEB4 /* FMPlayPauseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C55B1BE4F4FE0FA1B2329F3370012909 /* FMPlayPauseButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382ECDB1D4785DA77DBD9F0219D2DE0B /* FeedMediaCoreProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 123A61951894AAA6BCE13E8BA45D7253 /* FeedMediaCoreProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		399F2A0161278488DC1E5ADD297DE3B7 /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8615477156AC7AC707CB03C1FDF5E1B /* BaseButtonBarPagerTabStripViewController.swift */; };
+		3BF331EFC749333654340364B5E014DD /* FMStationCrossfader.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3F85FB60253605D1A47DFD624BCD07 /* FMStationCrossfader.m */; };
+		3C6B03E1DBC800E1B8000E2A5E212735 /* FMTotalTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EB2D6881721CB9C2008C59677F3B59 /* FMTotalTimeLabel.m */; };
+		3F1E6AE0B8A22678DB406AE072F213FC /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235ADE0F1B6C077D770409A065CA29C4 /* PagerTabStripViewController.swift */; };
+		445D61C3F4F1E353873FE474EA856E02 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 301BB7728E78EFE3809F9DBA6BB8A65E /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46DB21B5AA5AE8F4106BD53D21CC8A00 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753C02B155D3FEF11A6E7F812291889E /* MediaPlayer.framework */; };
+		48A106821C02D96938046944771858C9 /* MarqueeLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF776E284E46B256EB328BDAA0458930 /* MarqueeLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F86F33F807A003D18DEDBCA01210037 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2E546302A6E1F818AACAF5AB7DFF74 /* BarView.swift */; };
+		4FDF92D1A31E7A19E8F1A9C3F78F425D /* FMSkipWarningView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CFFC349B2183F4728C88B6B75D8650D /* FMSkipWarningView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50C07D4AF2FDC8C4F4452E789B7664B3 /* FMSkipButton.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC4D616A4F97AD3F36CD5410B957793 /* FMSkipButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5314A51E6DE35D20FF5EB8607BB556A3 /* FMSkipButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F0E611F64258EFC4C381E7B12EE89B /* FMSkipButton.m */; };
+		59B5A9852E52721CC247906E2057F64E /* FMElapsedTimeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED869A05897B98A7D3AD07BDF7473A6 /* FMElapsedTimeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59BA6FD61F0A9B68CD58C371DA1F1D60 /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04CDBED51F044B75CA71CB935ADF19C /* BarPagerTabStripViewController.swift */; };
+		5E41AB88DE99803736EB10302D6904B2 /* FMLikeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 99AA0CFB18E6F5BEF73FF478ECC42979 /* FMLikeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E42D85D2371233B7DBF32A36B634D1A /* CWStatusBarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 291261C4FD0A1B4EF8FBC54B915C8FE0 /* CWStatusBarNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EC0E86B922FCC39C1744BAA1E3BC207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982ABDD6EF1C6BB19F264E1712127455 /* Foundation.framework */; };
+		6438249E97A6D502F264F2DA96080D3F /* Pods-Swiftdemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05BB386A1F8F4DB30BCB6400F2AB9876 /* Pods-Swiftdemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		668731EACDA76132EE59E890F884A7BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982ABDD6EF1C6BB19F264E1712127455 /* Foundation.framework */; };
+		69B419B8DBDE3DC6EA250BA01BEEAC62 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF4FF718EAC8B41D36F10B7CA009954 /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A332AF6C1B4A44654EEA9A031A751F6 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F768EA3C6947E82917A5EEDBE30D3BF /* ButtonCell.xib */; };
+		7020E5BEC85954CEE8BA43F032C6522C /* FMStation.h in Headers */ = {isa = PBXBuildFile; fileRef = A66C46059C76FF79FDA6584A43C4E18D /* FMStation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		775542D5BE6B24392EF7FCA2CE7C5E97 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBD5EE44A4408D2FE49DA503CCB58C0 /* TwitterPagerTabStripViewController.swift */; };
+		7B435A60DE3EE804DFE5E3117E617EA0 /* FMElapsedTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AB20B4C5912C865D3AA25302278D77 /* FMElapsedTimeLabel.m */; };
+		7C0E26CC037AA534F57DED63F6A33886 /* MarqueeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3DE9D991DB9E0A6108F8E43EE18D73 /* MarqueeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84C77B8BAA4451A26B904EB7CDB25E4D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346FCB889CA30F61C19D0A32C941062C /* QuartzCore.framework */; };
+		8716CE9A0E05DB3FE2F57FF9D37E2BD4 /* FMMetadataLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3820CF73A8857E5BD01838C718C1E54C /* FMMetadataLabel.m */; };
+		89A56AEFC275188F62AD865F81A10F41 /* FeedMedia-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 220FD27D6265848203A613C484E3DD55 /* FeedMedia-dummy.m */; };
+		8B217664B5448B5AF63DD058CCE679B1 /* FMLockScreenDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBC1DB1B5C44446971CBF3CCA61611E /* FMLockScreenDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C30EF7B816753D56B57A6F00ACA3E79 /* FMDislikeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E9C3BA347CB29C08A6B8A10C450966 /* FMDislikeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D20E7F4D087802E610D146797EF56AA /* FMPlayPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F574C0AE1E0844DBAE83FEE53BCDC17F /* FMPlayPauseButton.m */; };
+		8E5C6BB27F7672EB5CFAC9AD2E1B9F46 /* Pods-Swiftdemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5289C8B542CA71D5531CCBEB255504 /* Pods-Swiftdemo-dummy.m */; };
+		911CC04F55219F3CB8EE70FA8F7347E7 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186444BE2AB3A44B3E85F770F0709FC /* ButtonBarView.swift */; };
+		93D0376DD7958091A7491F3894A20CB8 /* FMError.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD0963C9096664EE6083CA44732308F /* FMError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D2948B7C9316622B26287FA2C14C5A /* FMDislikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9618B07AE7A6A903D362E9E85F5B376E /* FMDislikeButton.m */; };
+		9D53E0EA8B6D212A5D2F72244B3BE1CD /* FeedMediaCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A8D585D5C60751A9AF5987DF66AA62 /* FeedMediaCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A26276F206FFA15CF0A57BE54526140C /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B07F3F48FC76189F7419974596B78FEB /* XLPagerTabStrip-dummy.m */; };
+		A3E5A2027FA8AC58CA9F483DCAB7A63D /* FMStationButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 534A833980165E46D7F8196EC1EDC8E5 /* FMStationButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7AEEE825346429BB80914A7D2365A51 /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B2CF0873067480606CB28B38E36B4 /* PagerTabStripBehaviour.swift */; };
+		AFB723DDEAF6B3004E2CC5FF2025D34D /* FMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC33BDAFCD89997118B8E39856B3F343 /* FMProgressView.m */; };
+		BAE979929113FCD9780D0BB2D5962968 /* FMShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 26705D4ACE59FD33E6CB3E4CABBA3CC9 /* FMShareButton.m */; };
+		BE557B84D6F6142E812C964B8CA604CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982ABDD6EF1C6BB19F264E1712127455 /* Foundation.framework */; };
+		C7458A9C3C22899042E66960CAFCB6A7 /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59276AF2CCBB4B054CD6BAE29BC3F478 /* MarqueeLabel.m */; };
+		D205CFFF46E6536D034AF8E5AB779D00 /* FMStationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BABCC4B52F363590CAC177991FBFD3 /* FMStationButton.m */; };
+		D3988E558D517DDBF6D9FEDB33AE0F31 /* FMTotalTimeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 462AA1EEC43F7FB571BDC6977BABBF1B /* FMTotalTimeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4752307842C120E14DED7853C10E528 /* FMMetadataLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED64E38932B56877AD9150E1F0AEC24 /* FMMetadataLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D93FC98F47A262DD6538585F8516AC92 /* FeedMedia-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C74545EB8D37ABC28260396B7B6A827 /* FeedMedia-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E554C1894F7994C45693A532CC18769A /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98204B9D2B72D1C1463687704C7003B /* ButtonBarPagerTabStripViewController.swift */; };
+		EF604EBFFA4212FA6E6078C1989F8E00 /* FMShareButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FF537CC31EA6CD5C653AE0AF01E60C /* FMShareButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2E3366710556B8D518FF6F12259CFA5 /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FC78261D1B9C92F8F37F5E9F34CFA4 /* PagerTabStripError.swift */; };
+		F47CC641037C492E0C86205CE395FA1E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360DAA79F4F2E5E36F991918657595B9 /* CoreMedia.framework */; };
+		F522987FA4C33AEFE28A9009C37ECB97 /* FMRemainingTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0661194C31BCA50C7C1877A654DE91 /* FMRemainingTimeLabel.m */; };
+		F805832DAAFB6DFA063DCE467BC59B9F /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B337E238C6E31F5F30454CF79440F4 /* FXPageControl.m */; };
+		FB7C01AB26481D05ABFF2C7F60D7D67C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 982ABDD6EF1C6BB19F264E1712127455 /* Foundation.framework */; };
+		FBBB77D2F4A67A807700401674BA694B /* FMProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A46BFB82F26ED73C8630F6D00137FD6 /* FMProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBE7FC89B3FA124F49413848F26CD0CA /* FMLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B10F93676A48DD6B58DB90B6256567BD /* FMLikeButton.m */; };
+		FD63BD883C83B91E2F8A9CA4B7E024D5 /* FMAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4782A0BEC36012212AD1DE6C4241C289 /* FMAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF38F6435EBC1EA8A85CE5858F03F50A /* FMStationArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D39F154230EFF9E2AFEB7539E2399AE /* FMStationArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		058A059CD6A6F51B5A2A5CCE09AEDBC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42E64E32184E344DF83C9F082A9B6EBF;
+			remoteInfo = FeedMedia;
+		};
+		3AEFEDE8B23CB412CB68299FBC1CC274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23DB88E45B0ED14F0C8827BE9C46C95;
+			remoteInfo = MarqueeLabel;
+		};
+		5B8329DD02E7A5BBD4BB45C327ED895A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF90A3A56D4C5830C212D000AB67BC1;
+			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
+		};
+		D6E9654A664F76C73551BBE1C376FB32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5C3A7662FFA04D04D29F4657D032CE;
+			remoteInfo = XLPagerTabStrip;
+		};
+		F453C7268BDBD1450067F5D877570B22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23DB88E45B0ED14F0C8827BE9C46C95;
+			remoteInfo = MarqueeLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E95290CAE0124EA36CFCDC9EE6C6E7 /* FMStationCrossfader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMStationCrossfader.h; path = Sources/FMStationCrossfader.h; sourceTree = "<group>"; };
+		05BB386A1F8F4DB30BCB6400F2AB9876 /* Pods-Swiftdemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swiftdemo-umbrella.h"; sourceTree = "<group>"; };
+		0B7B2CF0873067480606CB28B38E36B4 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		0D39F154230EFF9E2AFEB7539E2399AE /* FMStationArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMStationArray.h; path = Core/FMStationArray.h; sourceTree = "<group>"; };
+		0EA766C492CC1BDBE18483FD3BCD2182 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		0ECDB1A4CC773AA3CBAB33ED7D878B34 /* FeedMedia.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeedMedia.xcconfig; sourceTree = "<group>"; };
+		123A61951894AAA6BCE13E8BA45D7253 /* FeedMediaCoreProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FeedMediaCoreProxy.h; path = Sources/FeedMediaCoreProxy.h; sourceTree = "<group>"; };
+		1288F922B9B61F1F615A99034290CFE7 /* Pods-Swiftdemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swiftdemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A2E546302A6E1F818AACAF5AB7DFF74 /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
+		1CF8D53ED72716B833D26E92C8EF8435 /* FMLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMLog.h; path = Core/FMLog.h; sourceTree = "<group>"; };
+		220FD27D6265848203A613C484E3DD55 /* FeedMedia-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeedMedia-dummy.m"; sourceTree = "<group>"; };
+		235ADE0F1B6C077D770409A065CA29C4 /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
+		26705D4ACE59FD33E6CB3E4CABBA3CC9 /* FMShareButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMShareButton.m; path = Sources/ios/FMShareButton.m; sourceTree = "<group>"; };
+		291261C4FD0A1B4EF8FBC54B915C8FE0 /* CWStatusBarNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWStatusBarNotification.h; path = Core/CWStatusBarNotification.h; sourceTree = "<group>"; };
+		2B3DE9D991DB9E0A6108F8E43EE18D73 /* MarqueeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MarqueeLabel.h; path = Sources/ObjC/MarqueeLabel.h; sourceTree = "<group>"; };
+		2ED64E38932B56877AD9150E1F0AEC24 /* FMMetadataLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMMetadataLabel.h; path = Sources/FMMetadataLabel.h; sourceTree = "<group>"; };
+		2FBC1DB1B5C44446971CBF3CCA61611E /* FMLockScreenDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMLockScreenDelegate.h; path = Core/FMLockScreenDelegate.h; sourceTree = "<group>"; };
+		301BB7728E78EFE3809F9DBA6BB8A65E /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
+		3186B3312E6F34A1F5DFD06F31B003E2 /* MarqueeLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarqueeLabel.modulemap; sourceTree = "<group>"; };
+		3217F5738B91B37792093EE788C64435 /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
+		346FCB889CA30F61C19D0A32C941062C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		360DAA79F4F2E5E36F991918657595B9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		3820CF73A8857E5BD01838C718C1E54C /* FMMetadataLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMMetadataLabel.m; path = Sources/FMMetadataLabel.m; sourceTree = "<group>"; };
+		3C74545EB8D37ABC28260396B7B6A827 /* FeedMedia-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedMedia-umbrella.h"; sourceTree = "<group>"; };
+		3DFC531B66F01F8406C826742F99277D /* ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		4038C227EB6CDE3A09BA0E686090791E /* Pods-Swiftdemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swiftdemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		435EA8CB5D5C58237273DDF15E4EE5F0 /* FMAudioItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMAudioItem.h; path = Core/FMAudioItem.h; sourceTree = "<group>"; };
+		462AA1EEC43F7FB571BDC6977BABBF1B /* FMTotalTimeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMTotalTimeLabel.h; path = Sources/FMTotalTimeLabel.h; sourceTree = "<group>"; };
+		46BD932489F6531C76A2010AB48927DC /* Pods-Swiftdemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swiftdemo-frameworks.sh"; sourceTree = "<group>"; };
+		4782A0BEC36012212AD1DE6C4241C289 /* FMAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMAudioPlayer.h; path = Core/FMAudioPlayer.h; sourceTree = "<group>"; };
+		4A706204FACC34E19A9AFFF84991A6E8 /* MarqueeLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarqueeLabel-Info.plist"; sourceTree = "<group>"; };
+		4B68A480157C30704D34B57320ADFBA3 /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		4BB6FF366798848F60BBAF119AF5E17A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E5289C8B542CA71D5531CCBEB255504 /* Pods-Swiftdemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swiftdemo-dummy.m"; sourceTree = "<group>"; };
+		4E8A06F70559C29E1D19DAE83E992B04 /* Pods-Swiftdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swiftdemo.release.xcconfig"; sourceTree = "<group>"; };
+		52DBBE2A03374CC1756302353DCB53A8 /* FeedMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FeedMedia.h; path = Sources/FeedMedia.h; sourceTree = "<group>"; };
+		530FE5B7910A7B5D48FA16B2144FA22B /* FMEqualizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMEqualizer.h; path = Sources/FMEqualizer.h; sourceTree = "<group>"; };
+		534A833980165E46D7F8196EC1EDC8E5 /* FMStationButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMStationButton.h; path = Sources/FMStationButton.h; sourceTree = "<group>"; };
+		56E3E4870DCA248662E884FDA7F887C8 /* XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		59276AF2CCBB4B054CD6BAE29BC3F478 /* MarqueeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MarqueeLabel.m; path = Sources/ObjC/MarqueeLabel.m; sourceTree = "<group>"; };
+		599055E5024716960F91BC8D46CD3165 /* Pods_Swiftdemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swiftdemo.framework; path = "Pods-Swiftdemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59930C4807C37AC36247A5E291B40FBC /* FMRemainingTimeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMRemainingTimeLabel.h; path = Sources/FMRemainingTimeLabel.h; sourceTree = "<group>"; };
+		5A46BFB82F26ED73C8630F6D00137FD6 /* FMProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMProgressView.h; path = Sources/FMProgressView.h; sourceTree = "<group>"; };
+		5C42E369D162C3F121103BE23157C99A /* MarqueeLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarqueeLabel-dummy.m"; sourceTree = "<group>"; };
+		5F768EA3C6947E82917A5EEDBE30D3BF /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
+		6186444BE2AB3A44B3E85F770F0709FC /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
+		62448AC0C41925BEC1449FCF9F6B11A8 /* Pods-Swiftdemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Swiftdemo.modulemap"; sourceTree = "<group>"; };
+		69F0E611F64258EFC4C381E7B12EE89B /* FMSkipButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMSkipButton.m; path = Sources/FMSkipButton.m; sourceTree = "<group>"; };
+		6CFFC349B2183F4728C88B6B75D8650D /* FMSkipWarningView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMSkipWarningView.h; path = Sources/FMSkipWarningView.h; sourceTree = "<group>"; };
+		727893AA3612AD897AA8F3DAE2E27A4F /* FeedMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FeedMedia.framework; path = FeedMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73AB20B4C5912C865D3AA25302278D77 /* FMElapsedTimeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMElapsedTimeLabel.m; path = Sources/FMElapsedTimeLabel.m; sourceTree = "<group>"; };
+		741CDCC60B8C01B662E0A9D7004A0D7C /* MarqueeLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarqueeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		753C02B155D3FEF11A6E7F812291889E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		75EB2D6881721CB9C2008C59677F3B59 /* FMTotalTimeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMTotalTimeLabel.m; path = Sources/FMTotalTimeLabel.m; sourceTree = "<group>"; };
+		78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XLPagerTabStrip.bundle; path = "XLPagerTabStrip-XLPagerTabStrip.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DBDCA3D35ABE18F9D918F0F2BBEBC97 /* MarqueeLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarqueeLabel.xcconfig; sourceTree = "<group>"; };
+		859A567C2CB9B656469E27A17CB301CD /* MarqueeLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-prefix.pch"; sourceTree = "<group>"; };
+		88C33C82F87442FB9FE42623E4ABFB26 /* FMActivityIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMActivityIndicator.h; path = Sources/FMActivityIndicator.h; sourceTree = "<group>"; };
+		88FF537CC31EA6CD5C653AE0AF01E60C /* FMShareButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMShareButton.h; path = Sources/ios/FMShareButton.h; sourceTree = "<group>"; };
+		8E23067526894DB2A263DAC09DF5E98B /* XLPagerTabStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.xcconfig; sourceTree = "<group>"; };
+		8FF4FF718EAC8B41D36F10B7CA009954 /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
+		9044D7FD41B87C8883A9CD68EB3F6087 /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
+		95CA6E99A2C454D47FB897A071312E16 /* FeedMedia-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedMedia-prefix.pch"; sourceTree = "<group>"; };
+		9618B07AE7A6A903D362E9E85F5B376E /* FMDislikeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDislikeButton.m; path = Sources/FMDislikeButton.m; sourceTree = "<group>"; };
+		982ABDD6EF1C6BB19F264E1712127455 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		99AA0CFB18E6F5BEF73FF478ECC42979 /* FMLikeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMLikeButton.h; path = Sources/FMLikeButton.h; sourceTree = "<group>"; };
+		9B0661194C31BCA50C7C1877A654DE91 /* FMRemainingTimeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMRemainingTimeLabel.m; path = Sources/FMRemainingTimeLabel.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ED869A05897B98A7D3AD07BDF7473A6 /* FMElapsedTimeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMElapsedTimeLabel.h; path = Sources/FMElapsedTimeLabel.h; sourceTree = "<group>"; };
+		9F2DD3242CF18F0F362D86B9250DCF62 /* libFeedMediaCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFeedMediaCore.a; path = Core/libFeedMediaCore.a; sourceTree = "<group>"; };
+		A66C46059C76FF79FDA6584A43C4E18D /* FMStation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMStation.h; path = Core/FMStation.h; sourceTree = "<group>"; };
+		B07F3F48FC76189F7419974596B78FEB /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
+		B10F93676A48DD6B58DB90B6256567BD /* FMLikeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMLikeButton.m; path = Sources/FMLikeButton.m; sourceTree = "<group>"; };
+		B3B337E238C6E31F5F30454CF79440F4 /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
+		B3E9C3BA347CB29C08A6B8A10C450966 /* FMDislikeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDislikeButton.h; path = Sources/FMDislikeButton.h; sourceTree = "<group>"; };
+		B5A8D585D5C60751A9AF5987DF66AA62 /* FeedMediaCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FeedMediaCore.h; path = Core/FeedMediaCore.h; sourceTree = "<group>"; };
+		BBBD5EE44A4408D2FE49DA503CCB58C0 /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		BD3F85FB60253605D1A47DFD624BCD07 /* FMStationCrossfader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMStationCrossfader.m; path = Sources/FMStationCrossfader.m; sourceTree = "<group>"; };
+		BF776E284E46B256EB328BDAA0458930 /* MarqueeLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarqueeLabel-umbrella.h"; sourceTree = "<group>"; };
+		C55B1BE4F4FE0FA1B2329F3370012909 /* FMPlayPauseButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMPlayPauseButton.h; path = Sources/FMPlayPauseButton.h; sourceTree = "<group>"; };
+		C6A47F3318EB75BE82D70434E3EAD0CA /* FeedMedia.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FeedMedia.modulemap; sourceTree = "<group>"; };
+		C8615477156AC7AC707CB03C1FDF5E1B /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		C98204B9D2B72D1C1463687704C7003B /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarqueeLabel.framework; path = MarqueeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A033EED47F9407BB71017771CE4F2E /* Pods-Swiftdemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swiftdemo-Info.plist"; sourceTree = "<group>"; };
+		D87DDDC5B5627280D6C799E664BA6CE8 /* Pods-Swiftdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swiftdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DAD0963C9096664EE6083CA44732308F /* FMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMError.h; path = Core/FMError.h; sourceTree = "<group>"; };
+		DAD2B35E2F38556C054B9BD09B12C7B8 /* FeedMedia-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FeedMedia-Info.plist"; sourceTree = "<group>"; };
+		DBDE5C49B26EDA3F361A86C6765C76E0 /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		E04CDBED51F044B75CA71CB935ADF19C /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		E06DB916DA63FC5399E016E3611E059B /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		E2F0839C5559AD682969EDE9ABFCE66C /* FMSkipWarningView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMSkipWarningView.m; path = Sources/FMSkipWarningView.m; sourceTree = "<group>"; };
+		E58149230D7533622399D23B439DC633 /* FMActivityIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMActivityIndicator.m; path = Sources/FMActivityIndicator.m; sourceTree = "<group>"; };
+		E6BABCC4B52F363590CAC177991FBFD3 /* FMStationButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMStationButton.m; path = Sources/FMStationButton.m; sourceTree = "<group>"; };
+		EC33BDAFCD89997118B8E39856B3F343 /* FMProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMProgressView.m; path = Sources/FMProgressView.m; sourceTree = "<group>"; };
+		EE0549B0D9E144A31691A7BDB25D2377 /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
+		EF3526DBFB47FC06E56BC51CCCC20487 /* FMEqualizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMEqualizer.m; path = Sources/FMEqualizer.m; sourceTree = "<group>"; };
+		F1DDEA945255A18F0B9913AB1C2AB718 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLPagerTabStrip.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F574C0AE1E0844DBAE83FEE53BCDC17F /* FMPlayPauseButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMPlayPauseButton.m; path = Sources/FMPlayPauseButton.m; sourceTree = "<group>"; };
+		F6FC78261D1B9C92F8F37F5E9F34CFA4 /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
+		FFC4D616A4F97AD3F36CD5410B957793 /* FMSkipButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMSkipButton.h; path = Sources/FMSkipButton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FD2D10FD6321FFD178496667854F045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1512C439AAB44C78CFC3A76202DFEF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC0E86B922FCC39C1744BAA1E3BC207 /* Foundation.framework in Frameworks */,
+				84C77B8BAA4451A26B904EB7CDB25E4D /* QuartzCore.framework in Frameworks */,
+				08F600D4BC35A369D84360C523130200 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CA2B1624B55AC9DD45B67C944ABD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE557B84D6F6142E812C964B8CA604CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64362C7BE85EC57AC3351CDCE1E5C323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA56B065700EC89EDFC27B8984965CE /* AVFoundation.framework in Frameworks */,
+				F47CC641037C492E0C86205CE395FA1E /* CoreMedia.framework in Frameworks */,
+				668731EACDA76132EE59E890F884A7BA /* Foundation.framework in Frameworks */,
+				18FA95434E324F783A409FCC5430FDE5 /* MarqueeLabel.framework in Frameworks */,
+				46DB21B5AA5AE8F4106BD53D21CC8A00 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF7861E3E33A6BA2B9F973559B8C53D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7C01AB26481D05ABFF2C7F60D7D67C /* Foundation.framework in Frameworks */,
+				2DABB7F30476F072B6A15D510614C93E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02BF42B38357241286DF621FD7FEBEDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				727893AA3612AD897AA8F3DAE2E27A4F /* FeedMedia.framework */,
+				CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel.framework */,
+				599055E5024716960F91BC8D46CD3165 /* Pods_Swiftdemo.framework */,
+				78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip.bundle */,
+				F1DDEA945255A18F0B9913AB1C2AB718 /* XLPagerTabStrip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07FA5AF53C3F52D1BE6F3C8995F052C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC531B66F01F8406C826742F99277D /* ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist */,
+				9044D7FD41B87C8883A9CD68EB3F6087 /* XLPagerTabStrip.modulemap */,
+				8E23067526894DB2A263DAC09DF5E98B /* XLPagerTabStrip.xcconfig */,
+				B07F3F48FC76189F7419974596B78FEB /* XLPagerTabStrip-dummy.m */,
+				56E3E4870DCA248662E884FDA7F887C8 /* XLPagerTabStrip-Info.plist */,
+				3217F5738B91B37792093EE788C64435 /* XLPagerTabStrip-prefix.pch */,
+				8FF4FF718EAC8B41D36F10B7CA009954 /* XLPagerTabStrip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLPagerTabStrip";
+			sourceTree = "<group>";
+		};
+		18F2A8BEC65CA4F13E75AF696F30F22B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6A47F3318EB75BE82D70434E3EAD0CA /* FeedMedia.modulemap */,
+				0ECDB1A4CC773AA3CBAB33ED7D878B34 /* FeedMedia.xcconfig */,
+				220FD27D6265848203A613C484E3DD55 /* FeedMedia-dummy.m */,
+				DAD2B35E2F38556C054B9BD09B12C7B8 /* FeedMedia-Info.plist */,
+				95CA6E99A2C454D47FB897A071312E16 /* FeedMedia-prefix.pch */,
+				3C74545EB8D37ABC28260396B7B6A827 /* FeedMedia-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FeedMedia";
+			sourceTree = "<group>";
+		};
+		1B4A16B0354445FE9151890CB1789515 /* MarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				3BE74B4BDCA4CAD7A081267F1D68A369 /* ObjC */,
+				E12B3E4F31E0339C88092040DB0C5A09 /* Support Files */,
+			);
+			name = MarqueeLabel;
+			path = MarqueeLabel;
+			sourceTree = "<group>";
+		};
+		3BE74B4BDCA4CAD7A081267F1D68A369 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				2B3DE9D991DB9E0A6108F8E43EE18D73 /* MarqueeLabel.h */,
+				59276AF2CCBB4B054CD6BAE29BC3F478 /* MarqueeLabel.m */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		4127B97125A0F5D9EDD4B22DDC1D3EB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F2DD3242CF18F0F362D86B9250DCF62 /* libFeedMediaCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		471C4B9F15347CA3D375544019D442AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F768EA3C6947E82917A5EEDBE30D3BF /* ButtonCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		47FB2319AAEA5DB28C67FE7CE7B66E1F /* FeedMedia */ = {
+			isa = PBXGroup;
+			children = (
+				291261C4FD0A1B4EF8FBC54B915C8FE0 /* CWStatusBarNotification.h */,
+				52DBBE2A03374CC1756302353DCB53A8 /* FeedMedia.h */,
+				B5A8D585D5C60751A9AF5987DF66AA62 /* FeedMediaCore.h */,
+				123A61951894AAA6BCE13E8BA45D7253 /* FeedMediaCoreProxy.h */,
+				88C33C82F87442FB9FE42623E4ABFB26 /* FMActivityIndicator.h */,
+				E58149230D7533622399D23B439DC633 /* FMActivityIndicator.m */,
+				435EA8CB5D5C58237273DDF15E4EE5F0 /* FMAudioItem.h */,
+				4782A0BEC36012212AD1DE6C4241C289 /* FMAudioPlayer.h */,
+				B3E9C3BA347CB29C08A6B8A10C450966 /* FMDislikeButton.h */,
+				9618B07AE7A6A903D362E9E85F5B376E /* FMDislikeButton.m */,
+				9ED869A05897B98A7D3AD07BDF7473A6 /* FMElapsedTimeLabel.h */,
+				73AB20B4C5912C865D3AA25302278D77 /* FMElapsedTimeLabel.m */,
+				530FE5B7910A7B5D48FA16B2144FA22B /* FMEqualizer.h */,
+				EF3526DBFB47FC06E56BC51CCCC20487 /* FMEqualizer.m */,
+				DAD0963C9096664EE6083CA44732308F /* FMError.h */,
+				99AA0CFB18E6F5BEF73FF478ECC42979 /* FMLikeButton.h */,
+				B10F93676A48DD6B58DB90B6256567BD /* FMLikeButton.m */,
+				2FBC1DB1B5C44446971CBF3CCA61611E /* FMLockScreenDelegate.h */,
+				1CF8D53ED72716B833D26E92C8EF8435 /* FMLog.h */,
+				2ED64E38932B56877AD9150E1F0AEC24 /* FMMetadataLabel.h */,
+				3820CF73A8857E5BD01838C718C1E54C /* FMMetadataLabel.m */,
+				C55B1BE4F4FE0FA1B2329F3370012909 /* FMPlayPauseButton.h */,
+				F574C0AE1E0844DBAE83FEE53BCDC17F /* FMPlayPauseButton.m */,
+				5A46BFB82F26ED73C8630F6D00137FD6 /* FMProgressView.h */,
+				EC33BDAFCD89997118B8E39856B3F343 /* FMProgressView.m */,
+				59930C4807C37AC36247A5E291B40FBC /* FMRemainingTimeLabel.h */,
+				9B0661194C31BCA50C7C1877A654DE91 /* FMRemainingTimeLabel.m */,
+				88FF537CC31EA6CD5C653AE0AF01E60C /* FMShareButton.h */,
+				26705D4ACE59FD33E6CB3E4CABBA3CC9 /* FMShareButton.m */,
+				FFC4D616A4F97AD3F36CD5410B957793 /* FMSkipButton.h */,
+				69F0E611F64258EFC4C381E7B12EE89B /* FMSkipButton.m */,
+				6CFFC349B2183F4728C88B6B75D8650D /* FMSkipWarningView.h */,
+				E2F0839C5559AD682969EDE9ABFCE66C /* FMSkipWarningView.m */,
+				A66C46059C76FF79FDA6584A43C4E18D /* FMStation.h */,
+				0D39F154230EFF9E2AFEB7539E2399AE /* FMStationArray.h */,
+				534A833980165E46D7F8196EC1EDC8E5 /* FMStationButton.h */,
+				E6BABCC4B52F363590CAC177991FBFD3 /* FMStationButton.m */,
+				00E95290CAE0124EA36CFCDC9EE6C6E7 /* FMStationCrossfader.h */,
+				BD3F85FB60253605D1A47DFD624BCD07 /* FMStationCrossfader.m */,
+				462AA1EEC43F7FB571BDC6977BABBF1B /* FMTotalTimeLabel.h */,
+				75EB2D6881721CB9C2008C59677F3B59 /* FMTotalTimeLabel.m */,
+				4127B97125A0F5D9EDD4B22DDC1D3EB7 /* Frameworks */,
+				18F2A8BEC65CA4F13E75AF696F30F22B /* Support Files */,
+			);
+			name = FeedMedia;
+			path = FeedMedia;
+			sourceTree = "<group>";
+		};
+		6B7CE5F782158ECAB76E54244AA389D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9D3F70B7322D9192D6A33F13C803B06 /* Pods-Swiftdemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		872DDEC7F701462EAF4CE767B3005D3E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0EA766C492CC1BDBE18483FD3BCD2182 /* AVFoundation.framework */,
+				360DAA79F4F2E5E36F991918657595B9 /* CoreMedia.framework */,
+				982ABDD6EF1C6BB19F264E1712127455 /* Foundation.framework */,
+				753C02B155D3FEF11A6E7F812291889E /* MediaPlayer.framework */,
+				346FCB889CA30F61C19D0A32C941062C /* QuartzCore.framework */,
+				4BB6FF366798848F60BBAF119AF5E17A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B438E1816D92110ECF9065191E364B34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47FB2319AAEA5DB28C67FE7CE7B66E1F /* FeedMedia */,
+				1B4A16B0354445FE9151890CB1789515 /* MarqueeLabel */,
+				F2570486C78F7E2F911293C550C7D5D8 /* XLPagerTabStrip */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E1F1C15BDF7A59A46F0C6AE92730DCE5 /* Frameworks */,
+				B438E1816D92110ECF9065191E364B34 /* Pods */,
+				02BF42B38357241286DF621FD7FEBEDE /* Products */,
+				6B7CE5F782158ECAB76E54244AA389D9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D9D3F70B7322D9192D6A33F13C803B06 /* Pods-Swiftdemo */ = {
+			isa = PBXGroup;
+			children = (
+				62448AC0C41925BEC1449FCF9F6B11A8 /* Pods-Swiftdemo.modulemap */,
+				4038C227EB6CDE3A09BA0E686090791E /* Pods-Swiftdemo-acknowledgements.markdown */,
+				1288F922B9B61F1F615A99034290CFE7 /* Pods-Swiftdemo-acknowledgements.plist */,
+				4E5289C8B542CA71D5531CCBEB255504 /* Pods-Swiftdemo-dummy.m */,
+				46BD932489F6531C76A2010AB48927DC /* Pods-Swiftdemo-frameworks.sh */,
+				D6A033EED47F9407BB71017771CE4F2E /* Pods-Swiftdemo-Info.plist */,
+				05BB386A1F8F4DB30BCB6400F2AB9876 /* Pods-Swiftdemo-umbrella.h */,
+				D87DDDC5B5627280D6C799E664BA6CE8 /* Pods-Swiftdemo.debug.xcconfig */,
+				4E8A06F70559C29E1D19DAE83E992B04 /* Pods-Swiftdemo.release.xcconfig */,
+			);
+			name = "Pods-Swiftdemo";
+			path = "Target Support Files/Pods-Swiftdemo";
+			sourceTree = "<group>";
+		};
+		E12B3E4F31E0339C88092040DB0C5A09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3186B3312E6F34A1F5DFD06F31B003E2 /* MarqueeLabel.modulemap */,
+				7DBDCA3D35ABE18F9D918F0F2BBEBC97 /* MarqueeLabel.xcconfig */,
+				5C42E369D162C3F121103BE23157C99A /* MarqueeLabel-dummy.m */,
+				4A706204FACC34E19A9AFFF84991A6E8 /* MarqueeLabel-Info.plist */,
+				859A567C2CB9B656469E27A17CB301CD /* MarqueeLabel-prefix.pch */,
+				BF776E284E46B256EB328BDAA0458930 /* MarqueeLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MarqueeLabel";
+			sourceTree = "<group>";
+		};
+		E1F1C15BDF7A59A46F0C6AE92730DCE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				741CDCC60B8C01B662E0A9D7004A0D7C /* MarqueeLabel.framework */,
+				872DDEC7F701462EAF4CE767B3005D3E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2570486C78F7E2F911293C550C7D5D8 /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				E04CDBED51F044B75CA71CB935ADF19C /* BarPagerTabStripViewController.swift */,
+				1A2E546302A6E1F818AACAF5AB7DFF74 /* BarView.swift */,
+				C8615477156AC7AC707CB03C1FDF5E1B /* BaseButtonBarPagerTabStripViewController.swift */,
+				C98204B9D2B72D1C1463687704C7003B /* ButtonBarPagerTabStripViewController.swift */,
+				6186444BE2AB3A44B3E85F770F0709FC /* ButtonBarView.swift */,
+				DBDE5C49B26EDA3F361A86C6765C76E0 /* ButtonBarViewCell.swift */,
+				301BB7728E78EFE3809F9DBA6BB8A65E /* FXPageControl.h */,
+				B3B337E238C6E31F5F30454CF79440F4 /* FXPageControl.m */,
+				EE0549B0D9E144A31691A7BDB25D2377 /* IndicatorInfo.swift */,
+				0B7B2CF0873067480606CB28B38E36B4 /* PagerTabStripBehaviour.swift */,
+				F6FC78261D1B9C92F8F37F5E9F34CFA4 /* PagerTabStripError.swift */,
+				235ADE0F1B6C077D770409A065CA29C4 /* PagerTabStripViewController.swift */,
+				4B68A480157C30704D34B57320ADFBA3 /* SegmentedPagerTabStripViewController.swift */,
+				E06DB916DA63FC5399E016E3611E059B /* SwipeDirection.swift */,
+				BBBD5EE44A4408D2FE49DA503CCB58C0 /* TwitterPagerTabStripViewController.swift */,
+				471C4B9F15347CA3D375544019D442AA /* Resources */,
+				07FA5AF53C3F52D1BE6F3C8995F052C8 /* Support Files */,
+			);
+			name = XLPagerTabStrip;
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24D642B782E5A12FCF2024EED2711744 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6438249E97A6D502F264F2DA96080D3F /* Pods-Swiftdemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E74127AF027B11FF09F7F50BB4B9622 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D61C3F4F1E353873FE474EA856E02 /* FXPageControl.h in Headers */,
+				69B419B8DBDE3DC6EA250BA01BEEAC62 /* XLPagerTabStrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5DC5D6F53911E123295C95AA7B06DCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A106821C02D96938046944771858C9 /* MarqueeLabel-umbrella.h in Headers */,
+				7C0E26CC037AA534F57DED63F6A33886 /* MarqueeLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7EF8A7DEDAD186EE83DAA42E6F44D32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E42D85D2371233B7DBF32A36B634D1A /* CWStatusBarNotification.h in Headers */,
+				D93FC98F47A262DD6538585F8516AC92 /* FeedMedia-umbrella.h in Headers */,
+				069F53C51BA5B62875891AD7030734C8 /* FeedMedia.h in Headers */,
+				9D53E0EA8B6D212A5D2F72244B3BE1CD /* FeedMediaCore.h in Headers */,
+				382ECDB1D4785DA77DBD9F0219D2DE0B /* FeedMediaCoreProxy.h in Headers */,
+				31D4BF794D869184883BA694632B66DA /* FMActivityIndicator.h in Headers */,
+				33C157E890BF3EC68FBD71154016F524 /* FMAudioItem.h in Headers */,
+				FD63BD883C83B91E2F8A9CA4B7E024D5 /* FMAudioPlayer.h in Headers */,
+				8C30EF7B816753D56B57A6F00ACA3E79 /* FMDislikeButton.h in Headers */,
+				59B5A9852E52721CC247906E2057F64E /* FMElapsedTimeLabel.h in Headers */,
+				086E656DECC01B31EB1418F1644AFA07 /* FMEqualizer.h in Headers */,
+				93D0376DD7958091A7491F3894A20CB8 /* FMError.h in Headers */,
+				5E41AB88DE99803736EB10302D6904B2 /* FMLikeButton.h in Headers */,
+				8B217664B5448B5AF63DD058CCE679B1 /* FMLockScreenDelegate.h in Headers */,
+				0CB07AF9700D4542B2C4C39D9C7FA227 /* FMLog.h in Headers */,
+				D4752307842C120E14DED7853C10E528 /* FMMetadataLabel.h in Headers */,
+				35970E66B100B24943ED1DB32756CEB4 /* FMPlayPauseButton.h in Headers */,
+				FBBB77D2F4A67A807700401674BA694B /* FMProgressView.h in Headers */,
+				0535E933FE1CA19F6341BD1299C35B3F /* FMRemainingTimeLabel.h in Headers */,
+				EF604EBFFA4212FA6E6078C1989F8E00 /* FMShareButton.h in Headers */,
+				50C07D4AF2FDC8C4F4452E789B7664B3 /* FMSkipButton.h in Headers */,
+				4FDF92D1A31E7A19E8F1A9C3F78F425D /* FMSkipWarningView.h in Headers */,
+				7020E5BEC85954CEE8BA43F032C6522C /* FMStation.h in Headers */,
+				FF38F6435EBC1EA8A85CE5858F03F50A /* FMStationArray.h in Headers */,
+				A3E5A2027FA8AC58CA9F483DCAB7A63D /* FMStationButton.h in Headers */,
+				23DEEEE2E18C3430D7A94C2866118C8D /* FMStationCrossfader.h in Headers */,
+				D3988E558D517DDBF6D9FEDB33AE0F31 /* FMTotalTimeLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42E64E32184E344DF83C9F082A9B6EBF /* FeedMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3D30C0DEBA13A7BC7FE926E6F6EE08 /* Build configuration list for PBXNativeTarget "FeedMedia" */;
+			buildPhases = (
+				F7EF8A7DEDAD186EE83DAA42E6F44D32 /* Headers */,
+				7F70B1309F2384AD03315F372E0EAF7E /* Sources */,
+				64362C7BE85EC57AC3351CDCE1E5C323 /* Frameworks */,
+				6FC4BD7EE24C6BD8D69659229A186BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E3F66C2E1B7AC746555F1737010AF2 /* PBXTargetDependency */,
+			);
+			name = FeedMedia;
+			productName = FeedMedia;
+			productReference = 727893AA3612AD897AA8F3DAE2E27A4F /* FeedMedia.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74FEBBBBE13A9ED0503784C22984CDD4 /* Pods-Swiftdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 277EE1BD3996051C17B3DBC5F76FB465 /* Build configuration list for PBXNativeTarget "Pods-Swiftdemo" */;
+			buildPhases = (
+				24D642B782E5A12FCF2024EED2711744 /* Headers */,
+				996C82CAB0C0A2C89625ACD607E6032B /* Sources */,
+				57CA2B1624B55AC9DD45B67C944ABD9A /* Frameworks */,
+				2E7195B7E0D742EC4D4DB7AC5637FBAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0E4C0CD2D6AF650A2885578B1AFF10 /* PBXTargetDependency */,
+				1B6B5BFEBE4EA5BC8E09E901A0780C9C /* PBXTargetDependency */,
+				DBABB540CEEAD993A29248DA16D37D64 /* PBXTargetDependency */,
+			);
+			name = "Pods-Swiftdemo";
+			productName = "Pods-Swiftdemo";
+			productReference = 599055E5024716960F91BC8D46CD3165 /* Pods_Swiftdemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A982B44959700305AF6AC7E12BCD35E /* Build configuration list for PBXNativeTarget "MarqueeLabel" */;
+			buildPhases = (
+				E5DC5D6F53911E123295C95AA7B06DCC /* Headers */,
+				8336CDD9CD6934983116EB48D400FA42 /* Sources */,
+				1512C439AAB44C78CFC3A76202DFEF2C /* Frameworks */,
+				AB42BE17486C933F7356413708D52DAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarqueeLabel;
+			productName = MarqueeLabel;
+			productReference = CF0AA9FBFBDB70858C030769541505ED /* MarqueeLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC5C3A7662FFA04D04D29F4657D032CE /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D866DA052EF93195E917061DB86D9A /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				2E74127AF027B11FF09F7F50BB4B9622 /* Headers */,
+				BCDC6490FBBA170437C0B29649B4ED6F /* Sources */,
+				AF7861E3E33A6BA2B9F973559B8C53D5 /* Frameworks */,
+				47847C1AE9C5FA9092141B090DA283A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8608636E5CBFC36C931368912AC4340E /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = F1DDEA945255A18F0B9913AB1C2AB718 /* XLPagerTabStrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBF90A3A56D4C5830C212D000AB67BC1 /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC3A1F894722359353AC05A476C7644 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				E55B2DFC65133EF5AF928D548C83EA56 /* Sources */,
+				0FD2D10FD6321FFD178496667854F045 /* Frameworks */,
+				1E70F53E5F27CFA6149993D34EA76E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			productName = "XLPagerTabStrip-XLPagerTabStrip";
+			productReference = 78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 02BF42B38357241286DF621FD7FEBEDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42E64E32184E344DF83C9F082A9B6EBF /* FeedMedia */,
+				C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */,
+				74FEBBBBE13A9ED0503784C22984CDD4 /* Pods-Swiftdemo */,
+				DC5C3A7662FFA04D04D29F4657D032CE /* XLPagerTabStrip */,
+				EBF90A3A56D4C5830C212D000AB67BC1 /* XLPagerTabStrip-XLPagerTabStrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E70F53E5F27CFA6149993D34EA76E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A332AF6C1B4A44654EEA9A031A751F6 /* ButtonCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E7195B7E0D742EC4D4DB7AC5637FBAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47847C1AE9C5FA9092141B090DA283A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7E7B16CDEC321A263291419E7CE00B /* XLPagerTabStrip.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FC4BD7EE24C6BD8D69659229A186BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB42BE17486C933F7356413708D52DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F70B1309F2384AD03315F372E0EAF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A56AEFC275188F62AD865F81A10F41 /* FeedMedia-dummy.m in Sources */,
+				1A25A338D61DA41B1616FA7BF548D11C /* FMActivityIndicator.m in Sources */,
+				97D2948B7C9316622B26287FA2C14C5A /* FMDislikeButton.m in Sources */,
+				7B435A60DE3EE804DFE5E3117E617EA0 /* FMElapsedTimeLabel.m in Sources */,
+				2D89C41651D801766FBC196037E185AB /* FMEqualizer.m in Sources */,
+				FBE7FC89B3FA124F49413848F26CD0CA /* FMLikeButton.m in Sources */,
+				8716CE9A0E05DB3FE2F57FF9D37E2BD4 /* FMMetadataLabel.m in Sources */,
+				8D20E7F4D087802E610D146797EF56AA /* FMPlayPauseButton.m in Sources */,
+				AFB723DDEAF6B3004E2CC5FF2025D34D /* FMProgressView.m in Sources */,
+				F522987FA4C33AEFE28A9009C37ECB97 /* FMRemainingTimeLabel.m in Sources */,
+				BAE979929113FCD9780D0BB2D5962968 /* FMShareButton.m in Sources */,
+				5314A51E6DE35D20FF5EB8607BB556A3 /* FMSkipButton.m in Sources */,
+				03598F903987C755C685B11A7F320593 /* FMSkipWarningView.m in Sources */,
+				D205CFFF46E6536D034AF8E5AB779D00 /* FMStationButton.m in Sources */,
+				3BF331EFC749333654340364B5E014DD /* FMStationCrossfader.m in Sources */,
+				3C6B03E1DBC800E1B8000E2A5E212735 /* FMTotalTimeLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8336CDD9CD6934983116EB48D400FA42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31444CF66F4DAF2E747D84B85BE901E5 /* MarqueeLabel-dummy.m in Sources */,
+				C7458A9C3C22899042E66960CAFCB6A7 /* MarqueeLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		996C82CAB0C0A2C89625ACD607E6032B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5C6BB27F7672EB5CFAC9AD2E1B9F46 /* Pods-Swiftdemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDC6490FBBA170437C0B29649B4ED6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BA6FD61F0A9B68CD58C371DA1F1D60 /* BarPagerTabStripViewController.swift in Sources */,
+				4F86F33F807A003D18DEDBCA01210037 /* BarView.swift in Sources */,
+				399F2A0161278488DC1E5ADD297DE3B7 /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				E554C1894F7994C45693A532CC18769A /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				911CC04F55219F3CB8EE70FA8F7347E7 /* ButtonBarView.swift in Sources */,
+				2B39B33ECADFF6B44583C4DBA8854A9C /* ButtonBarViewCell.swift in Sources */,
+				F805832DAAFB6DFA063DCE467BC59B9F /* FXPageControl.m in Sources */,
+				28336F1C947B57D07831C63C31B84A0C /* IndicatorInfo.swift in Sources */,
+				A7AEEE825346429BB80914A7D2365A51 /* PagerTabStripBehaviour.swift in Sources */,
+				F2E3366710556B8D518FF6F12259CFA5 /* PagerTabStripError.swift in Sources */,
+				3F1E6AE0B8A22678DB406AE072F213FC /* PagerTabStripViewController.swift in Sources */,
+				311557DC2943E068608D1B6A7B663232 /* SegmentedPagerTabStripViewController.swift in Sources */,
+				2BC8DF4EADD024A30A84555CB575CAC6 /* SwipeDirection.swift in Sources */,
+				775542D5BE6B24392EF7FCA2CE7C5E97 /* TwitterPagerTabStripViewController.swift in Sources */,
+				A26276F206FFA15CF0A57BE54526140C /* XLPagerTabStrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55B2DFC65133EF5AF928D548C83EA56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B6B5BFEBE4EA5BC8E09E901A0780C9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarqueeLabel;
+			target = C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */;
+			targetProxy = 3AEFEDE8B23CB412CB68299FBC1CC274 /* PBXContainerItemProxy */;
+		};
+		8608636E5CBFC36C931368912AC4340E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			target = EBF90A3A56D4C5830C212D000AB67BC1 /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = 5B8329DD02E7A5BBD4BB45C327ED895A /* PBXContainerItemProxy */;
+		};
+		B7E3F66C2E1B7AC746555F1737010AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarqueeLabel;
+			target = C23DB88E45B0ED14F0C8827BE9C46C95 /* MarqueeLabel */;
+			targetProxy = F453C7268BDBD1450067F5D877570B22 /* PBXContainerItemProxy */;
+		};
+		CB0E4C0CD2D6AF650A2885578B1AFF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FeedMedia;
+			target = 42E64E32184E344DF83C9F082A9B6EBF /* FeedMedia */;
+			targetProxy = 058A059CD6A6F51B5A2A5CCE09AEDBC0 /* PBXContainerItemProxy */;
+		};
+		DBABB540CEEAD993A29248DA16D37D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = DC5C3A7662FFA04D04D29F4657D032CE /* XLPagerTabStrip */;
+			targetProxy = D6E9654A664F76C73551BBE1C376FB32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18A4B8EE4F7F3A9E1E764C3B471E511C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBDCA3D35ABE18F9D918F0F2BBEBC97 /* MarqueeLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel.modulemap";
+				PRODUCT_MODULE_NAME = MarqueeLabel;
+				PRODUCT_NAME = MarqueeLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		324D90A2301E5DDFD547D4C12E33E7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBDCA3D35ABE18F9D918F0F2BBEBC97 /* MarqueeLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarqueeLabel/MarqueeLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MarqueeLabel/MarqueeLabel.modulemap";
+				PRODUCT_MODULE_NAME = MarqueeLabel;
+				PRODUCT_NAME = MarqueeLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		329F8F02FE51A37855688938B070B635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D87DDDC5B5627280D6C799E664BA6CE8 /* Pods-Swiftdemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swiftdemo/Pods-Swiftdemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swiftdemo/Pods-Swiftdemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		58C6AEA56689CFE0595D13BE333D7BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E23067526894DB2A263DAC09DF5E98B /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				IBSC_MODULE = XLPagerTabStrip;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		698B773E4C04B15D278CDC2BC3F0C253 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECDB1A4CC773AA3CBAB33ED7D878B34 /* FeedMedia.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FeedMedia/FeedMedia-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FeedMedia/FeedMedia-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FeedMedia/FeedMedia.modulemap";
+				PRODUCT_MODULE_NAME = FeedMedia;
+				PRODUCT_NAME = FeedMedia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F0443855CA5B9A50AE6FEE5D362E6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E23067526894DB2A263DAC09DF5E98B /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				PRODUCT_MODULE_NAME = XLPagerTabStrip;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D1C3A9887FA027696EA4F68AB3247B46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E23067526894DB2A263DAC09DF5E98B /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				IBSC_MODULE = XLPagerTabStrip;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D43951F6AFB26750906F6BC3783C430A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E23067526894DB2A263DAC09DF5E98B /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				PRODUCT_MODULE_NAME = XLPagerTabStrip;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5BD7AE17F1EA867907942DC9B6E73D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECDB1A4CC773AA3CBAB33ED7D878B34 /* FeedMedia.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FeedMedia/FeedMedia-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FeedMedia/FeedMedia-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FeedMedia/FeedMedia.modulemap";
+				PRODUCT_MODULE_NAME = FeedMedia;
+				PRODUCT_NAME = FeedMedia;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEC42CA446211F6163614190A2DE4A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8A06F70559C29E1D19DAE83E992B04 /* Pods-Swiftdemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Swiftdemo/Pods-Swiftdemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Swiftdemo/Pods-Swiftdemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DC3A1F894722359353AC05A476C7644 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C6AEA56689CFE0595D13BE333D7BC7 /* Debug */,
+				D1C3A9887FA027696EA4F68AB3247B46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		277EE1BD3996051C17B3DBC5F76FB465 /* Build configuration list for PBXNativeTarget "Pods-Swiftdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329F8F02FE51A37855688938B070B635 /* Debug */,
+				DEC42CA446211F6163614190A2DE4A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3D30C0DEBA13A7BC7FE926E6F6EE08 /* Build configuration list for PBXNativeTarget "FeedMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				698B773E4C04B15D278CDC2BC3F0C253 /* Debug */,
+				D5BD7AE17F1EA867907942DC9B6E73D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A982B44959700305AF6AC7E12BCD35E /* Build configuration list for PBXNativeTarget "MarqueeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324D90A2301E5DDFD547D4C12E33E7FC /* Debug */,
+				18A4B8EE4F7F3A9E1E764C3B471E511C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88D866DA052EF93195E917061DB86D9A /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0443855CA5B9A50AE6FEE5D362E6B0 /* Debug */,
+				D43951F6AFB26750906F6BC3783C430A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

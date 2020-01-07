@@ -1,0 +1,26 @@
+PODS:
+  - FeedMedia (4.3.7):
+    - MarqueeLabel (~> 3.1.4)
+  - MarqueeLabel (3.1.6):
+    - MarqueeLabel/ObjC (= 3.1.6)
+  - MarqueeLabel/ObjC (3.1.6)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - FeedMedia (~> 4.3.7)
+  - XLPagerTabStrip (~> 9.0)
+
+SPEC REPOS:
+  trunk:
+    - FeedMedia
+    - MarqueeLabel
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  FeedMedia: edc13a24f6058ae8c8e4c6561734f4deab5c174b
+  MarqueeLabel: 0c41f08ef5773e29c0f71064a8fa788a2fd8b365
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: 869ecc6c8fcf657fd46c237c5296b4c4909304d3
+
+COCOAPODS: 1.8.3
